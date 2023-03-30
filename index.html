@@ -17,10 +17,42 @@
   <body>
     <div class="container">
       <div class="weather-app-wrapper">
-        <h1 id="city">New York</h1>
+        <form class="form-inline" id="input-city">
+          <div class="row">
+            <div class="col-10">
+              <div class="input-group mb-3">
+                <input
+                  type="text"
+                  class="form-control city-input-box"
+                  id="city-box"
+                  placeholder="Enter a city"
+                  autocomplete="on"
+                />
+                <button
+                  class="btn btn-outline-secondary search-btn"
+                  type="submit"
+                  id="search-btn"
+                >
+                  Search
+                </button>
+              </div>
+            </div>
+            <div class="col-2">
+              <button
+                class="btn btn-outline-secondary search-btn"
+                type="submit"
+                id="current-btn"
+              >
+                Current
+              </button>
+            </div>
+          </div>
+        </form>
+
+        <h1 id="city"></h1>
         <ul>
-          <li id="date">Friday 05:00</li>
-          <li id="status">Clear</li>
+          <li>Last update: <span id="date"></span></li>
+          <li id="status"></li>
         </ul>
         <div class="row" id="weather">
           <div class="col-6">
@@ -31,15 +63,15 @@
                 id="icon"
               />
               <div>
-                <strong id="temperature">12</strong>
+                <strong id="temperature"></strong>
                 <span class="units">°C | <a href="#">°F</a></span>
               </div>
             </div>
           </div>
           <div class="col-6" id="more-info">
             <ul>
-              <li id="humidity">Humidity:</li>
-              <li id="wind">Wind:</li>
+              <li>Humidity: <span id="humidity"></span>%</li>
+              <li>Wind: <span id="wind"></span>km/h</li>
             </ul>
           </div>
         </div>

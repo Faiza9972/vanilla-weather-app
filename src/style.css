@@ -4,6 +4,7 @@ body {
 h1 {
   font-weight: 400;
   font-size: 28px;
+
 }
 h2 {
   font-size: 20px;
@@ -13,6 +14,9 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+ul :first-letter{
+  text-transform: capitalize;
 }
 a {
   text-decoration: none;
@@ -42,4 +46,10 @@ a {
   position: relative;
   font-size: 16px;
   top: -32px;
+}
+#search-btn {
+  background-color: #2f89b3;
+}
+#current-btn {
+  background-color: #5be7a9;
 }
