@@ -1,11 +1,9 @@
 body {
   font-family: Google Sans, arial, sans-serif;
-
 }
 h1 {
   font-weight: 400;
   font-size: 28px;
-
 }
 h2 {
   font-size: 20px;
@@ -16,7 +14,7 @@ ul {
   margin: 0;
   padding: 0;
 }
-ul :first-letter{
+ul :first-letter {
   text-transform: capitalize;
 }
 a {
@@ -32,9 +30,8 @@ a {
   border: 1px solid grey;
   border-radius: 5px;
   line-height: 28px;
-background-color: #8BC6EC;
-background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
-
+  background-color: #8bc6ec;
+  background-image: linear-gradient(135deg, #8bc6ec 0%, #9599e2 100%);
 }
 .weather-temperature img {
   margin-right: 10px;
@@ -52,7 +49,7 @@ background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
   top: -32px;
 }
 #search-btn {
-  background-color: #0396FF;
+  background-color: #0396ff;
   color: #fff;
 }
 #current-btn {
