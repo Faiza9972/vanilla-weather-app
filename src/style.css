@@ -51,10 +51,7 @@ a {
   background-color: #4f81c7;
   color: #fff;
 }
-#current-btn {
-  background-color: #97cba9;
-  color: #fff;
-}
+
 .weather-temperature .active {
   color: black;
   cursor: default;
