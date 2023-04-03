@@ -1,5 +1,3 @@
-//api key 44ae0f41tb7e2391obf31f323acaa06e
-//api url (shecoes url = https://api.shecodes.io/weather/v1/current?lon={lon}&lat={lat}&key={key}
 function formatDate(timestamp) {
   let date = new Date(timestamp);
   let hours = date.getHours();
