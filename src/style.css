@@ -40,7 +40,7 @@ hr {
   color: #fff;
 }
 .weather-temperature img {
-  margin-right: 10px;
+  margin-right: 5px;
   height: 64px;
   width: 64px;
 }
@@ -52,7 +52,7 @@ hr {
 .weather-temperature .units {
   position: relative;
   font-size: 16px;
-  top: -32px;
+  top: -34px;
 }
 #search-btn {
   background-color: #255699;
