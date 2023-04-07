@@ -22,6 +22,7 @@ a {
 }
 hr {
   margin: 15px auto;
+  border: 4px solid #e94822;
   border-radius: 2px;
   color: #e94822;
   width: 80%;
